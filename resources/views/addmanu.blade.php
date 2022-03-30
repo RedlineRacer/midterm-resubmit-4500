@@ -5,6 +5,4 @@
     <input type="text" name="salescontact" placeholder="Enter Sales Contact Info"> <br> </br>
     <input type="text" name="techcontact" placeholder="Enter Tech Contact Info"> <br> </br>
 <button type="submit">Add Manufacturer</button>
-
-
 </form>
