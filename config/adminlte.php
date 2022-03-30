@@ -232,17 +232,17 @@ return [
         [
             'text' => 'Manufacturers',
             'url'  => 'manufacturers',
-            'icon' => 'fas fa-fw fa-file',
+            'icon' => 'far fa-hand-pointer',
         ],
         [         
             'text' => 'Equipment',
             'url'  => 'equipment',
-            'icon' => 'fas fa-fw fa-calendar-alt',
+            'icon' => 'far fa-id-card',
         ],
         [         
             'text' => 'View',
             'url'  => 'view',
-            'icon' => 'far fa-window-maximize',
+            'icon' => 'far fa-file-alt',
         ],
     ],
 
