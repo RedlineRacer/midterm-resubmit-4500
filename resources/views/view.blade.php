@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'title')
+@section('title', 'View Info')
 
 @section('content_header')
 <h1>Add Views</h1>

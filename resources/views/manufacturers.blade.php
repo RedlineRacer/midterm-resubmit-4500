@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'title')
+@section('title', 'Manufacturer Info')
 
 @section('content_header')
 <h1>Add Manufacturer</h1>
