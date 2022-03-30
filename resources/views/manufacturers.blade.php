@@ -4,7 +4,7 @@
 
 @section('content_header')
 <h1>Add Manufacturer</h1>
-<form action="" method="POST">
+<form action="add" method="POST">
     @csrf
     <input type="text" name="manufacturer" placeholder="Enter Manufacturer"> <br> </br>
     <input type="text" name="salescontact" placeholder="Enter Sales Contact Info"> <br> </br>

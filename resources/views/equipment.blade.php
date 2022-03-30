@@ -3,11 +3,19 @@
 @section('title', 'title')
 
 @section('content_header')
-    <h1>Header</h1>
+<h1>Add Equipment</h1>
+<form action="add" method="POST">
+    @csrf
+    <input type="text" name="specs" placeholder="Enter Hardware Specs"> <br> </br>
+    <input type="text" name="purchaseinfo" placeholder="Enter Purchase Info"> <br> </br>
+    <input type="text" name="userinfo" placeholder="Enter User Info"> <br> </br>
+    <input type="text" name="notes" placeholder="Enter Notes"> <br> </br>
+<button type="submit">Add Manufacturer</button>
+</form>
 @stop
 
 @section('content')
-    <p>Content here</p>
+    <p>Specs: Purchase Info: User Info: Notes:</p>
 @stop
 
 @section('css')
