@@ -32,3 +32,5 @@ Route::get('/view', function () {
 Route::fallback(function () {
     return view('fallback');
 });
+
+Route::view('addmanu', 'addmanu');
