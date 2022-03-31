@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ManuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,6 @@ Route::fallback(function () {
 });
 
 Route::view('addmanu', 'addmanu');
+
+Route::post('addmanu', [ManuController::class, 'addData']);
+
